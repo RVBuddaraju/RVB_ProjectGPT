@@ -1,5 +1,5 @@
 import pytest
-from app import app  # Import your app as created in app.py
+from backend.app import app
 
 @pytest.fixture
 def client():
